@@ -3,16 +3,19 @@ import Education from "./components/Education";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import ShoppingCard from "./components/ShoppingCard";
 
 function App() {
   return (
-    <div>
-      <Navbar />
+    <>
+      <ShoppingCard />
+      <Footer />
+      {/*<Navbar />
       <Hero />
       <Education />
       <Contact />
-      <Footer />
-    </div>
+      */}
+    </>
   );
 }
 

@@ -2,6 +2,8 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 import HeroImg from "../assets/HeroImg2.png";
 
+let name = "Thirugkumar";
+
 const Hero = () => {
   return (
     <>
@@ -10,7 +12,7 @@ const Hero = () => {
           <div className="w-full order-1 " id="Left">
             <span className="text-white text-5xl font-bold">
               Hi, I am <br />
-              <span className="flex pt-4">Thirugkumar</span>
+              <span className="flex pt-4">{name}</span>
             </span>
             <div className="text-white font-bold pt-4 text-4xl flex gap-2">
               I am a
